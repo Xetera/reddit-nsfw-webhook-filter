@@ -10,6 +10,8 @@ Tired of your IFTTT Reddit webhook sending lewd content in your server? Route yo
 2. Set your method to POST
 3. Content type should be `application/json`
 4. Fill in the body
+
+The `url` field has to be a link to the post like https://www.reddit.com/r/NewGame/comments/9fjhyw/vento_aureo_is_coming_so_i_sketched_eagle_jump
 ```json
 {
   "to": "your-actual-webhook-url-here",
