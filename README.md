@@ -1,6 +1,6 @@
 # Reddit NSFW Webhook Filter
 
-Tired of your IFTTT Reddit webhook sending lewd content in your server?
+Tired of your IFTTT Reddit webhook sending lewd content in your server? Route your reddit webhooks through here to drop the ones marked as NSFW.
 
 ### Steps for setting up the webhook server
 1. None, it's all set up for you already! Target https://webhook.hifumi.io with your webhook requests.
