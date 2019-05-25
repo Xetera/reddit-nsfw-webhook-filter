@@ -11,12 +11,18 @@ provider:
   runtime: nodejs8.10
 
 functions:
-  hello:
-    handler: handler.hello
+  info:
+    handler: handler.noGet
     events:
       - http:
           method: get
-          path: hello
+          path: /
+  webhook:
+    handler: handler.forwardWebhook
+    events:
+      - http:
+          method: post
+          path: /
       - http:
           method: post
           path: webhook
