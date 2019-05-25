@@ -57,7 +57,7 @@ export const forwardWebhook: APIGatewayProxyHandler = async ({ body }) => {
           {
             title: data.title,
             url: `https://reddit.com${data.permalink}`,
-            description: `@${data.author}`,
+            description: `**Author:** /u/${data.author}`,
             image: {
               url: data.url
             }
