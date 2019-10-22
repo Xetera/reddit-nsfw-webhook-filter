@@ -21,6 +21,6 @@ The `url` field has to be a link to the post like https://www.reddit.com/r/NewGa
 
 Your final screen should look like this
 
-![](https://i.love.miki.ai/%F0%9F%98%8B%F0%9F%A4%B2%F0%9F%91%AA%E2%9C%8D%F0%9F%91%84%F0%9F%98%9A.png)
+![](https://mamamoo.xetera.dev/%F0%9F%98%8B%F0%9F%A4%B2%F0%9F%91%AA%E2%9C%8D%F0%9F%91%84%F0%9F%98%9A.png)
 
 **Note:** This currently only supports discord embed format. Customizable post body will be added later.
